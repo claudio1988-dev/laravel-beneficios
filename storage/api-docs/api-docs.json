@@ -1,0 +1,21 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API de Beneficios",
+        "description": "Documentación de la API que retorna beneficios por año",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/beneficios-filtrados": {
+            "get": {
+                "summary": "Obtiene beneficios filtrados por monto, agrupados por año",
+                "operationId": "beb532e4c1e90e819bde9aa3533ab110",
+                "responses": {
+                    "200": {
+                        "description": "Lista de beneficios agrupados"
+                    }
+                }
+            }
+        }
+    }
+}

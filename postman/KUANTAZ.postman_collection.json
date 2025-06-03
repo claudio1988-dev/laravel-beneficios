@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "2bbbebfe-998a-4576-9599-3856d6f87f0b",
+		"name": "KUANTAZ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25463748"
+	},
+	"item": [
+		{
+			"name": "Obtener Beneficios Filtrados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/beneficios-filtrados",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"beneficios-filtrados"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
